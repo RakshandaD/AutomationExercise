@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+  <test name="Register Test">
+    <classes>
+      <class name="testcases.RegisterUser"/>
+    </classes>
+  </test> <!-- Register Test -->
+  <test name="Login Test">
+    <classes>
+      <class name="testcases.LoginTests"/>
+    </classes>
+  </test> <!-- Login Test -->
+  <test name="ContactForm Test">
+    <classes>
+      <class name="testcases.ContactForm"/>
+    </classes>
+  </test> <!-- ContactForm Test -->
+  <test name="Testcases Test">
+    <classes>
+      <class name="testcases.TestCases"/>
+    </classes>
+  </test> <!-- Products -->
+   <test name="Products Test">
+    <classes>
+      <class name="testcases.VerifyProduct"/>
+    </classes>
+  </test> <!-- Products Test -->
+  <test name="Subscription Test">
+    <classes>
+      <class name="testcases.SubscriptionVerify"/>
+    </classes>
+  </test> <!-- Subscription Test -->
+</suite> <!-- Automation Suite -->

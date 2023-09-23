@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-23T20:58:13 IST" name="Suite" finished-at="2023-09-23T21:00:00 IST" duration-ms="106770">
+    <groups>
+    </groups>
+    <test started-at="2023-09-23T20:58:13 IST" name="Register Test" finished-at="2023-09-23T20:58:42 IST" duration-ms="28604">
+      <class name="testcases.RegisterUser">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testcases.RegisterUser@8d7b252]" started-at="2023-09-23T20:58:13 IST" name="startUp" finished-at="2023-09-23T20:58:23 IST" duration-ms="9667" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="RegistNewUser()[pri:1, instance:testcases.RegisterUser@8d7b252]" started-at="2023-09-23T20:58:23 IST" name="RegistNewUser" finished-at="2023-09-23T20:58:39 IST" duration-ms="16472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistNewUser -->
+        <test-method signature="RegistUserwithExs()[pri:2, instance:testcases.RegisterUser@8d7b252]" started-at="2023-09-23T20:58:39 IST" name="RegistUserwithExs" finished-at="2023-09-23T20:58:42 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistUserwithExs -->
+      </class> <!-- testcases.RegisterUser -->
+    </test> <!-- Register Test -->
+    <test started-at="2023-09-23T20:58:42 IST" name="Login Test" finished-at="2023-09-23T20:59:17 IST" duration-ms="35061">
+      <class name="testcases.LoginTests">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testcases.LoginTests@376e7531]" started-at="2023-09-23T20:58:42 IST" name="startUp" finished-at="2023-09-23T20:58:44 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginWithInCorrectCred()[pri:1, instance:testcases.LoginTests@376e7531]" started-at="2023-09-23T20:58:44 IST" name="loginWithInCorrectCred" finished-at="2023-09-23T20:58:46 IST" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInCorrectCred -->
+        <test-method signature="logoutUser()[pri:2, instance:testcases.LoginTests@376e7531]" started-at="2023-09-23T20:58:46 IST" name="logoutUser" finished-at="2023-09-23T20:58:54 IST" duration-ms="8132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method signature="loginWithCorrectCred()[pri:3, instance:testcases.LoginTests@376e7531]" started-at="2023-09-23T20:58:54 IST" name="loginWithCorrectCred" finished-at="2023-09-23T20:59:17 IST" duration-ms="22715" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Logged in as ']"}
+  (Session info: MicrosoftEdge=117.0.2045.36)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b4ac273974dfcd1404bb10c66e285901, findElement {using=xpath, value=//a[text()=' Logged in as ']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51742}, msedge: {msedgedriverVersion: 117.0.2045.36 (7e3a0633c58a..., userDataDir: C:\Users\raksh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51742/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4ac273974dfcd1404bb10c66e285901]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()=' Logged in as ']"}
+  (Session info: MicrosoftEdge=117.0.2045.36)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b4ac273974dfcd1404bb10c66e285901, findElement {using=xpath, value=//a[text()=' Logged in as ']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51742}, msedge: {msedgedriverVersion: 117.0.2045.36 (7e3a0633c58a..., userDataDir: C:\Users\raksh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51742/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4ac273974dfcd1404bb10c66e285901
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at resuableFunctions.ResuableClass.elementAvailable(ResuableClass.java:68)
+at testcases.LoginTests.loginWithCorrectCred(LoginTests.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCred -->
+      </class> <!-- testcases.LoginTests -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-09-23T20:59:17 IST" name="ContactForm Test" finished-at="2023-09-23T20:59:27 IST" duration-ms="10047">
+      <class name="testcases.ContactForm">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testcases.ContactForm@681adc8f]" started-at="2023-09-23T20:59:17 IST" name="startUp" finished-at="2023-09-23T20:59:20 IST" duration-ms="3580" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="ContactTest()[pri:0, instance:testcases.ContactForm@681adc8f]" started-at="2023-09-23T20:59:20 IST" name="ContactTest" finished-at="2023-09-23T20:59:27 IST" duration-ms="6467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactTest -->
+      </class> <!-- testcases.ContactForm -->
+    </test> <!-- ContactForm Test -->
+    <test started-at="2023-09-23T20:59:27 IST" name="Testcases Test" finished-at="2023-09-23T20:59:30 IST" duration-ms="2800">
+      <class name="testcases.TestCases">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testcases.TestCases@50acf55d]" started-at="2023-09-23T20:59:27 IST" name="startUp" finished-at="2023-09-23T20:59:29 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="TestCasestest()[pri:0, instance:testcases.TestCases@50acf55d]" started-at="2023-09-23T20:59:29 IST" name="TestCasestest" finished-at="2023-09-23T20:59:30 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCasestest -->
+      </class> <!-- testcases.TestCases -->
+    </test> <!-- Testcases Test -->
+    <test started-at="2023-09-23T20:59:30 IST" name="Products Test" finished-at="2023-09-23T20:59:54 IST" duration-ms="24024">
+      <class name="testcases.VerifyProduct">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testcases.VerifyProduct@5bcb04cb]" started-at="2023-09-23T20:59:30 IST" name="startUp" finished-at="2023-09-23T20:59:32 IST" duration-ms="2055" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="VerifyProducts()[pri:1, instance:testcases.VerifyProduct@5bcb04cb]" started-at="2023-09-23T20:59:32 IST" name="VerifyProducts" finished-at="2023-09-23T20:59:36 IST" duration-ms="3856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProducts -->
+        <test-method signature="searchProduct()[pri:2, instance:testcases.VerifyProduct@5bcb04cb]" started-at="2023-09-23T20:59:36 IST" name="searchProduct" finished-at="2023-09-23T20:59:41 IST" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="addFirstAndSecondProductsToCart()[pri:3, instance:testcases.VerifyProduct@5bcb04cb]" started-at="2023-09-23T20:59:41 IST" name="addFirstAndSecondProductsToCart" finished-at="2023-09-23T20:59:48 IST" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstAndSecondProductsToCart -->
+        <test-method signature="verifyProdQuantity()[pri:4, instance:testcases.VerifyProduct@5bcb04cb]" started-at="2023-09-23T20:59:48 IST" name="verifyProdQuantity" description="Testcases no: 13" finished-at="2023-09-23T20:59:54 IST" duration-ms="5520" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [1]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at resuableFunctions.ResuableClass.innerTextEquals(ResuableClass.java:53)
+at testcases.VerifyProduct.verifyProdQuantity(VerifyProduct.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProdQuantity -->
+      </class> <!-- testcases.VerifyProduct -->
+    </test> <!-- Products Test -->
+    <test started-at="2023-09-23T20:59:54 IST" name="Subscription Test" finished-at="2023-09-23T21:00:00 IST" duration-ms="6138">
+      <class name="testcases.TestCases">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.TestCases@50acf55d]" started-at="2023-09-23T21:00:00 IST" name="close" finished-at="2023-09-23T21:00:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.TestCases -->
+      <class name="testcases.SubscriptionVerify">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testcases.SubscriptionVerify@3fd2322d]" started-at="2023-09-23T20:59:54 IST" name="startUp" finished-at="2023-09-23T20:59:57 IST" duration-ms="3384" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="verifySubs()[pri:1, instance:testcases.SubscriptionVerify@3fd2322d]" started-at="2023-09-23T20:59:57 IST" name="verifySubs" finished-at="2023-09-23T20:59:58 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubs -->
+        <test-method signature="verifySubsInCart()[pri:2, instance:testcases.SubscriptionVerify@3fd2322d]" started-at="2023-09-23T20:59:58 IST" name="verifySubsInCart" finished-at="2023-09-23T21:00:00 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubsInCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.SubscriptionVerify@3fd2322d]" started-at="2023-09-23T21:00:00 IST" name="close" finished-at="2023-09-23T21:00:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.SubscriptionVerify -->
+      <class name="testcases.ContactForm">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.ContactForm@681adc8f]" started-at="2023-09-23T21:00:00 IST" name="close" finished-at="2023-09-23T21:00:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.ContactForm -->
+      <class name="testcases.VerifyProduct">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.VerifyProduct@5bcb04cb]" started-at="2023-09-23T21:00:00 IST" name="close" finished-at="2023-09-23T21:00:00 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.VerifyProduct -->
+      <class name="testcases.LoginTests">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.LoginTests@376e7531]" started-at="2023-09-23T21:00:00 IST" name="close" finished-at="2023-09-23T21:00:00 IST" duration-ms="271" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b4ac273974dfcd1404bb10c66e285901, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51742}, msedge: {msedgedriverVersion: 117.0.2045.36 (7e3a0633c58a..., userDataDir: C:\Users\raksh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51742/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4ac273974dfcd1404bb10c66e285901]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b4ac273974dfcd1404bb10c66e285901, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51742}, msedge: {msedgedriverVersion: 117.0.2045.36 (7e3a0633c58a..., userDataDir: C:\Users\raksh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51742/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4ac273974dfcd1404bb10c66e285901
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
+at resuableFunctions.ResuableClass.closeApp(ResuableClass.java:39)
+at testcases.LoginTests.close(LoginTests.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.LoginTests -->
+      <class name="testcases.RegisterUser">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.RegisterUser@8d7b252]" started-at="2023-09-23T21:00:00 IST" name="close" finished-at="2023-09-23T21:00:00 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.RegisterUser -->
+    </test> <!-- Subscription Test -->
+  </suite> <!-- Suite -->
+</testng-results>
